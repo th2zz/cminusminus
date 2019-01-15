@@ -1,0 +1,99 @@
+void main(){
+int s;
+    if(true == true){
+        cout << "Equivalency Works\n";
+    }else{
+        cout << "Equivalency Doesn't Work\n";
+    }
+
+    if(true != false){
+        cout << "Not Equals Works\n";
+    }else{
+        cout << "Not Equals Doesn't Work\n";
+    }
+
+    if(!false){
+        cout << "Not Works\n";
+    }else{
+        cout << "Not Doesn't Work\n";
+    }
+
+    if(5 < 6){
+        cout << "Less Than Works\n";
+    }else{
+        cout << "Less Than Doesn't Work\n";
+    }
+
+    if(5 <= 6){
+        if(5 <= 5){
+            cout << "Less Than Equal Works\n";
+        }else{
+            cout << "Less Than Doesn't Work\n";
+        }
+    }else{
+        cout << "Less Than Doesn't Work\n";
+    }
+
+    if(6 > 5){
+        cout << "Greater Than Works\n";
+    }else{
+        cout << "Greater Than Doesn't Work\n";
+    }
+
+    if(6 >= 5){
+        if(5 >= 5){
+            cout << "Greater Than Equal Works\n";
+        }else{
+            cout << "Greater Than Doesn't Work\n";
+        }
+    }else{
+        cout << "Greater Than Doesn't Work\n";
+    }
+
+    if(true && true){
+        if(false && true){
+            cout << "And Doesn't Work\n";
+        }else{
+            cout << "And Works\n";
+        }
+    }else{
+        cout << "And Doesn't Work\n";
+    }
+
+    if(true || false){
+        if(false || false){
+            cout << "Or Doesn't Work\n";
+        }else{
+            cout << "Or Works\n";
+        }
+    }else{
+        cout << "Or Doesn't Work\n";
+    }
+
+    if(5+5 == 10){
+        cout << "Addition Works\n";
+    }else{
+        cout << "Addition Doesnt Work\n";
+    }
+
+    if(15-5 == 10){
+        cout << "Subtraction Works\n";
+    }else{
+        cout << "Subtraction Doesnt Work\n";
+    }
+
+    if(5*5 == 25){
+        cout << "Multiplication Works\n";
+    }else{
+        cout << "Multiplication Doesnt Work\n";
+    }
+
+    if(25/5 == 5){
+        cout << "Division Works\n";
+    }else{
+        cout << "Division Doesnt Work\n";
+    }
+
+
+
+}

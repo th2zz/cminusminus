@@ -1,0 +1,17 @@
+int foo(int x){
+	return 5;
+}
+
+bool bar(bool y){
+
+	return false;
+}
+
+
+void main() {
+	int k;
+	k = 4;
+	
+	foo(9);
+	bar(true);
+}

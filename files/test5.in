@@ -1,0 +1,31 @@
+int boo(){
+	int x;
+	x = 343;
+	return 12;
+}
+bool farb(){
+
+
+	if(boo() + 3 > 20){
+		return false;
+	}
+	else{
+		return true;
+	}
+}
+
+void main(){
+	int k;
+	k = 22;
+
+	if(true){
+		cout<<"out check\n";
+	}
+
+	if(farb() == true){
+		cout<<"farb == true\n";
+	}
+	else{
+		cout<<"farb == false\n";
+	}
+}
