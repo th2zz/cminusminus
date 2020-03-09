@@ -1,0 +1,10 @@
+void f1(){
+	cout<<"hello world";
+	cout<<"\n";
+}
+
+void main(){
+  int s;
+  s = 3;
+	f1();
+}
