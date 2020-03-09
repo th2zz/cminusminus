@@ -3,7 +3,7 @@
 The entire project involves creating a C-like programming language (C minusminus) from scratch and it is runnable under MIPS after compilation.
 Tools used: Jlex, Java Cup
 
-Environment: Linux Ubuntu 
+Environment: Linux Ubuntu 16+
 
 Build: Make
 
